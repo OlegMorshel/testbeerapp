@@ -1,0 +1,40 @@
+.profile {
+  margin-bottom: 40px;
+  &__wrapper {
+    display: flex;
+  }
+  &__section {
+    width: 100%;
+    text-align: center;
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+  &__avatar {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    background-color: azure;
+  }
+  &__avatardata {
+    max-width: 340px;
+  }
+
+  &__avatar-item {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  &__profiledata {
+    margin-top: 60px;
+
+    &-item {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+    &-item + &-item {
+      margin-top: 15px;
+    }
+  }
+}
