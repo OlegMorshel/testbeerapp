@@ -1,0 +1,39 @@
+@media (max-width: 980px){
+	.profile__wrapper{
+		display: block;
+	}
+	.profile__avatar{
+	margin: 0 auto;
+	}
+	.profile__avatardata{
+		margin: 0 auto;
+	}
+	
+}
+
+@media(max-width: 475px){
+	.profile__avatar{
+		height: 200px;
+		width: 200px;
+	}
+	
+	
+	.profile__photo{
+		height: 200px;
+		width: 200px;
+	}
+
+	.rofile__profiledata-item{
+		font-size: 16px;
+		line-height: 1.5;
+		span{
+			display: block;
+		}
+	}
+}
+
+@media(max-width: 390px){
+	.profile__profiledata-item span{
+		display: block;
+	}
+}

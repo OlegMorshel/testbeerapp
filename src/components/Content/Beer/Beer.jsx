@@ -1,6 +1,7 @@
 import React from "react";
 
-import './Beer.scss';
+import './../../../scss/styles/Beer.scss';
+import './../../../scss/media/BeerMedia.scss';
 
 const Beer = ( props ) => {
 	return (
@@ -22,7 +23,10 @@ const Beer = ( props ) => {
             </ul>
           </div>
         </div>
-        <div className="beer__footer">Specifications: {`${props.alcohol} ,  ${props.blg} , ${props.ibu}.`}</div>
+        <div className="beer__footer">
+          <span>Specifications:</span>{" "}
+          {`${props.alcohol} ,  ${props.blg} , ${props.ibu}.`}
+        </div>
       </div>
     </div>
   );

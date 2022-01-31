@@ -3,7 +3,7 @@
   &__wrapper {
     width: 600px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
     font-size: 20px;
 	-webkit-box-shadow: 4px -1px 8px 17px rgba(184, 184, 184, 0.29) inset;
     -moz-box-shadow: 4px -1px 8px 17px rgba(184, 184, 184, 0.29) inset;
@@ -39,7 +39,8 @@
 		font-size: 24px;
   }
   &__footer {
-		padding: 15px;
+		padding: 15px 15px 30px 15px;
 		text-align: center;
+		
   }
 }

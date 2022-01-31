@@ -1,0 +1,39 @@
+@media(max-width: 750px){
+	.beer__wrapper{
+		width: 500px;
+	}
+}
+@media(max-width: 605px){
+	.beer__container{
+		display: block;
+	}
+		.beer__wrapper{
+		width: 400px;
+	}
+	.beer__title{
+		font-size: 20px;
+	}
+	.beer__params,
+	.beer__consist,
+	.beer__footer{
+		font-size: 18px;
+	}
+	.beer__footer span{
+		display: block;
+	}
+
+}
+@media(max-width: 500px){
+	.beer__wrapper{
+		width: 300px;
+	}
+	.header__email{
+		font-size: 14px;
+	}
+}
+
+@media(max-width:400px){
+	.beer__wrapper{
+		width: 220px;
+	}
+}

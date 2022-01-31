@@ -13,7 +13,7 @@ const Content  = ( props ) => {
         avatar={props.avatar}
         date_of_birthday={props.date_of_birthday}
 				country={props.country}
-				// state={props.state}
+				state={props.state}
 				city={props.city} 
       />
       <Beer beerId={props.beerId}
