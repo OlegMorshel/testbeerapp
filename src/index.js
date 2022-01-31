@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./App";
+import AppContainer from './AppContainer';
 
 
 import './index.css';
@@ -8,7 +8,7 @@ import './reset.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );

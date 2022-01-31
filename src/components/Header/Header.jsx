@@ -3,11 +3,11 @@ import React from "react";
 import './Header.scss';
 
 
-const Header = () => {
+const Header = ( props ) => {
 	return (<header className='header'>
 		<div className='header__container container'>
 			<div className='header__email'>
-				masteel.up@bk.ru
+				{props.email}
 			</div>
 		</div>
 	</header>)

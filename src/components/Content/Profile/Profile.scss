@@ -6,6 +6,8 @@
   &__section {
     width: 100%;
     text-align: center;
+    
+
     &:first-child {
       margin-right: 20px;
     }
@@ -14,7 +16,9 @@
     height: 300px;
     width: 300px;
     padding: 20px;
-    background-color: azure;
+		-webkit-box-shadow: 4px -1px 8px 17px rgba(184, 184, 184, 0.29) inset;
+    -moz-box-shadow: 4px -1px 8px 17px rgba(184, 184, 184, 0.29) inset;
+    box-shadow: 4px -1px 8px 17px rgba(184, 184, 184, 0.29) inset;
   }
   &__avatardata {
     max-width: 340px;
@@ -25,13 +29,16 @@
     line-height: 1.5;
     margin-top: 20px;
     padding: 10px;
+		border-bottom:2px solid rgba(184, 184, 184, 0.29);
   }
   &__profiledata {
     margin-top: 60px;
+		
 
     &-item {
       font-size: 24px;
       line-height: 1.5;
+			font-weight: 500;
     }
     &-item + &-item {
       margin-top: 15px;
